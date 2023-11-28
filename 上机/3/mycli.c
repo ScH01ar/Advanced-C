@@ -23,14 +23,12 @@ main(int argc, char **argv)
 {
 	int					sockfd;
 	struct sockaddr_in	servaddr;
-    char *              name;           
-
-
+       
 	bzero(&servaddr, sizeof(servaddr));
 	servaddr.sin_family = AF_INET;
 	servaddr.sin_port = htons(8888);
 	Inet_pton(AF_INET, argv[1], &servaddr.sin_addr);
-    name=argv[2];
+	char * name=argv[2];
     
 	sockfd = Socket(AF_INET, SOCK_DGRAM, 0);
 
