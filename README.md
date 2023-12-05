@@ -38,3 +38,7 @@ clean:
 
 运行时多开几个终端分别运行`./mysrv`,`./mycli 127.0.0.1 aa`,`./mycli 127.0.0.1 bb`,`./mycli 127.0.0.1 cc`
 
+### 4 
+第4次上机同3，放在`unpv13e/udpcliserv`目录下，自行添加makefile。
+
+运行示例同3。
